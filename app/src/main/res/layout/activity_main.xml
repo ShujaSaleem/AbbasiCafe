@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/FRAMELAYOUT"
+        android:layout_margin="5dp"
+        android:layout_weight="0.1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_weight="0.9">
+
+        <Button
+            android:id="@+id/BUTTON_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/baseline_home"
+            android:layout_margin="5dp"
+            android:scaleX="0.5"
+            android:scaleY="0.8"/>
+
+        <Button
+            android:id="@+id/BUTTON_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shopping_cart"
+            android:layout_margin="5dp"
+            android:scaleX="0.5"
+            android:scaleY="0.8"/>
+
+        <Button
+            android:id="@+id/BUTTON_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_payment_24"
+            android:layout_margin="5dp"
+            android:scaleX="0.5"
+            android:scaleY="0.8"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
